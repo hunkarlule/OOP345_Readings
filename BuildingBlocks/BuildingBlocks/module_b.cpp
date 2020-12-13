@@ -2,28 +2,23 @@
 using namespace std;
 void display();
 
-int share_me = 4; // variable definition
+static int local = 2; // variable definition
 
 /*
-External Linkage
+Internal Linkage
 
-A name with external linkage refers to an entity that is declared in a different scope within another translation unit.  The C++ keyword extern identifies external linkage.
+A name with internal linkage refers to an entity that is invisible outside its own translation unit, but visible to other scopes within its translation unit.  The C++ keyword static identifies internal linkage.
 
- extern int share_me; // declaration
-We omit this linkage keyword in the translation unit that defines and initialize the named entity:
-
- int share_me = 0;  // definition
-C++ ignores the extern keyword if an initialization is present.
-
-In the following program the name share_me refers to the same entity across two translation units.  The variable
+ static int local = 2;
+The following program allocates separate memories for the variables named local in Module_a.cpp and Module_b.cpp.  The same name (local) refers to two distinct variables in the two translation units.
 */
 
 int main()
 {
 	display();
 	display();
-	cout << "share_me at " << &share_me << endl;
-	cout << "share_me is " << share_me++ << endl;
+	cout << "local at " << &local << endl;
+	cout << "local is " << local++ << endl;
 
 	return 0;
 }
