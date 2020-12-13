@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="shadowed_scope.cpp">
+    <ClCompile Include="module_a.cpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="module_b.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
