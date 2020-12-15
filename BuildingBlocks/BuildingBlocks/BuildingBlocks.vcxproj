@@ -139,8 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="module_a.cpp.cpp" />
-    <ClCompile Include="module_b.cpp" />
+    <ClCompile Include="static.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

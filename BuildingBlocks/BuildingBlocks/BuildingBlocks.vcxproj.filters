@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="module_a.cpp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="module_b.cpp">
+    <ClCompile Include="static.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
