@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="constexpr.cpp">
+    <ClCompile Include="static_assert.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
