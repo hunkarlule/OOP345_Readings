@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="static.cpp">
+    <ClCompile Include="commandline_arguments.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
